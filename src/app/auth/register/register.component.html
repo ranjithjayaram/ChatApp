@@ -1,0 +1,22 @@
+<div class="register-box">
+    <h2 class="header">Create Account</h2>
+    <div class="reg-field">
+        <label>Name</label>
+        <input type="text" [(ngModel)]="user.name" >
+    </div>
+    <div class="reg-field">
+        <label>Email</label>
+        <input type="email" [(ngModel)]="user.email">
+    </div>
+    <div class="reg-field">
+        <label>Password</label>
+        <input type="password" [(ngModel)]="user.password">
+    </div>
+    <div class="reg-field">
+        <label>Re enter Password</label>
+        <input type="password">
+    </div>
+    <button class="reg-btn" (click)="createUser(user)">Register</button>
+    <br/>
+    <span>Already a  User? <a routerLink="/login">Click here to Login</a></span>
+</div>

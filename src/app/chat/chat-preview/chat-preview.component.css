@@ -1,0 +1,42 @@
+.search{
+    height: 60px;
+    width: 20%;
+    background: #86d1d4;
+}
+.search input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.chat-preview{
+    width: 20%;
+    background: #b7e6e8;
+    height: 80px;
+    border: none;
+    border-bottom: 1px rgb(250, 150, 150) solid;
+ 
+}
+.user-img{
+    width: 25%;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+.user-chat{
+    display: flex;
+}
+.user-chat label{
+    padding-top: 10%;
+    width: 90%;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 10%;
+    font-weight: bold;
+}
+.user-chat span{
+    font-size: 10px;
+    width: 70px;
+}
